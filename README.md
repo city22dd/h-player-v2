@@ -1,34 +1,3 @@
-# h-player-v2
-
-## 关于 h-player-v2
-
-h-player-v2 是基于 Quasar Framework 开发应用程序，通过 electron 包装，实现hls视频流的在线播放。
-
-## 功能特色
-
-+ 支持视频源导入
-+ 支持分类浏览与搜索
-+ 特色多窗口播放模式
-
-## 预览🔞
-
-<a target="_blank" href ="https://raw.githubusercontent.com/ZyqGitHub1/h-player-v2/master/screenshot/screenshot-list.png">🔞 首页截图</a>
-
-<a target="_blank" href ="https://raw.githubusercontent.com/ZyqGitHub1/h-player-v2/master/screenshot/screenshot-video.png">🔞 播放页截图</a>
-
-<a target="_blank" href ="https://raw.githubusercontent.com/ZyqGitHub1/h-player-v2/master/screenshot/screenshot-mini.png">🔞 多窗口播放截图</a>
-
-## Get Started
-
-```bash
-# 安装依赖
-yarn install
-# 启动开发服务器
-yarn electron:serve
-# 编译二进制包
-yarn electron:build
-```
-
 > ### Note
 >
 > 1. 资源采集网的配置信息位于src\store\module\site.js
@@ -55,12 +24,3 @@ See [Configuration Reference](https://quasar.dev/quasar-cli/quasar-conf-js).
 >
 > 1. 视频源只需导入一次，可以在设置界面重新导入或清空视频源
 > 2. 如果下载示例视频源文件出现网络问题，请参考 [#14](https://github.com/ZyqGitHub1/h-player-v2/issues/14#issuecomment-517104860)
-
-## TODO
-
-- [x] 高亮当前分类
-- [x] 页面缓存
-- [x] 独立窗口播放
-- [x] 持久化配置文件
-- [x] 支持导入视频源
-- [ ] http/https 功能优化
